@@ -16,13 +16,13 @@ sdk: docker
 [![Flask](https://img.shields.io/badge/Flask-2.x-4f46e5?style=for-the-badge&logo=flask&logoColor=white)](https://flask.palletsprojects.com/)
 [![Ultralytics](https://img.shields.io/badge/YOLO11-Ultralytics-ff6f00?style=for-the-badge&logo=pytorch&logoColor=white)](https://github.com/ultralytics/ultralytics)
 [![Docker](https://img.shields.io/badge/Docker-Ready-3b82f6?style=for-the-badge&logo=docker&logoColor=white)](https://www.docker.com/)
-[![GitHub](https://img.shields.io/badge/GitHub-yolo-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/mnoorchenar/yolo)
+[![GitHub](https://img.shields.io/badge/GitHub-yolo-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/mnoorchenar/yolo-object-detection)
 [![Status](https://img.shields.io/badge/Status-Active-22c55e?style=for-the-badge)](#)
 
 <br/>
 
-[![Live Demo](https://img.shields.io/badge/%E2%96%B6_Live_Demo-Hugging_Face_Space-ffcc00?style=for-the-badge&logo=huggingface&logoColor=black)](https://huggingface.co/spaces/mnoorchenar/yolo)
-[![Source Code](https://img.shields.io/badge/Source_Code-GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/mnoorchenar/yolo)
+[![Live Demo](https://img.shields.io/badge/%E2%96%B6_Live_Demo-Hugging_Face_Space-ffcc00?style=for-the-badge&logo=huggingface&logoColor=black)](https://huggingface.co/spaces/mnoorchenar/yolo-object-detection)
+[![Source Code](https://img.shields.io/badge/Source_Code-GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/mnoorchenar/yolo-object-detection)
 
 <br/>
 
@@ -108,9 +108,8 @@ sdk: docker
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/mnoorchenar/yolo.git
-cd yolo
-
+git clone https://github.com/mnoorchenar/yolo-object-detection.git
+cd yolo-object-detection
 # 2. Create a virtual environment
 python -m venv venv
 source venv/bin/activate  # Windows: venv\Scripts\activate
@@ -136,8 +135,8 @@ Open your browser at `http://localhost:7860` 🎉
 docker compose up --build
 
 # Or build and run manually
-docker build -t yolo-custom-trainer .
-docker run -p 7860:7860 yolo-custom-trainer
+docker build -t yolo-object-detection-custom-trainer .
+docker run -p 7860:7860 yolo-object-detection-custom-trainer
 ```
 
 ---
@@ -173,7 +172,7 @@ models = {
 ## 📁 Project Structure
 
 ```
-yolo/
+yolo-object-detection/
 │
 ├── 📂 routes/
 │   ├── __init__.py
@@ -262,8 +261,8 @@ For any other use, please contact the author directly.
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:3b82f6,100:4f46e5&height=120&section=footer&text=Made%20with%20%E2%9D%A4%EF%B8%8F%20by%20Mohammad%20Noorchenarboo&fontColor=ffffff&fontSize=18&fontAlignY=80" width="100%"/>
 
-[![Star on GitHub](https://img.shields.io/badge/%E2%AD%90_Star-on_GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/mnoorchenar/yolo/stargazers)
-[![Fork on GitHub](https://img.shields.io/badge/%F0%9F%8D%B4_Fork-on_GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/mnoorchenar/yolo/fork)
+[![Star on GitHub](https://img.shields.io/badge/%E2%AD%90_Star-on_GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/mnoorchenar/yolo-object-detection/stargazers)
+[![Fork on GitHub](https://img.shields.io/badge/%F0%9F%8D%B4_Fork-on_GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/mnoorchenar/yolo-object-detection/fork)
 
 <sub>The name "YOLO (You Only Look Once)" is used purely for academic and research purposes. Any similarity to existing product names or trademarks is entirely coincidental. This project has no affiliation with any commercial entity.</sub>
 
